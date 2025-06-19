@@ -1,0 +1,33 @@
+{
+  "name": "poem-explorer-extension",
+  "displayName": "Poem Explorer Extension",
+  "description": "An extension to explore and view generated poems.",
+  "version": "0.1.0",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "activationEvents": [
+    "onCommand:poemExplorer.show"
+  ],
+  "main": "./src/extension.ts",
+  "contributes": {
+    "commands": [
+      {
+        "command": "poemExplorer.show",
+        "title": "Show Poem Explorer"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./out/src/install.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "vscode": "^1.60.0",
+    "@types/node": "^14.0.0"
+  }
+}

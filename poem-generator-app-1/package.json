@@ -1,0 +1,36 @@
+{
+  "name": "poem-generator-app",
+  "version": "1.0.0",
+  "description": "A majestic poem generator app with music and AI assistant features.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "firebase": "^9.6.1",
+    "axios": "^0.21.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2"
+  },
+  "keywords": [
+    "poem",
+    "generator",
+    "music",
+    "AI",
+    "assistant",
+    "google",
+    "authentication"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
